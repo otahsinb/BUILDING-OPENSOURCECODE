@@ -1,9 +1,8 @@
 
 <div class="cat" id="top"> 
-  <img src="./bnnr.jpg" alt="cizgimmm">
+  <img src="./img_s.png" alt="cizgimmm">
   &#xa0;
 </div>
-
 <h1 align="center">Opensource projeler ve kullanımları hakkında</h1>
 
 <p align="center">
