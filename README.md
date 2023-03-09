@@ -30,7 +30,7 @@
 
 ## :dart: Açıklama ##
 
- Bu alan opensource projeleri güncel işletim sistemlerinde derleyerek kullanma adımlarını içermektedir.
+ Bu alan opensource projelerini güncel işletim sistemlerinde derleyerek kullanma adımlarını içermektedir.
 
  
 :heavy_check_mark: Kaynak Kodlar \
