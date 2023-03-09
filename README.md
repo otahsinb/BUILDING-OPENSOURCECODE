@@ -38,8 +38,6 @@
 :heavy_check_mark: Linker Ayarları \
 :heavy_check_mark: Best Practices
 
-<a href="#top">Back to top</a>
-
 ## :sparkler: LibTiff ##
  
   ```sh
