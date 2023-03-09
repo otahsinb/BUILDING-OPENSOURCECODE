@@ -1,5 +1,6 @@
-<div align="center" id="top"> 
-  <img src="./cizgimmm.png" alt="cizgimmm" width="300"/>
+
+<div class="cat" id="top"> 
+  <img src="./bnnr.jpg" alt="cizgimmm">
   &#xa0;
 </div>
 
