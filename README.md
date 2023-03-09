@@ -21,9 +21,8 @@
   <a href="#twisted_rightwards_arrows-odbc">ODBC</a> &#xa0; | &#xa0;
   <a href="#fish_cake-mysql-client">MySQL Client</a> &#xa0; | &#xa0;
   <a href="#dvd-postgresql-client">PostGreSQL Client</a> &#xa0; | &#xa0;
-  <a href="#factory-bilgisayar-mimarisi">Bilgisayar Mimarisi</a> &#xa0; | &#xa0;
-  <a href="#sparkles-yapay-zeka">Yapay Zeka</a> &#xa0; | &#xa0;
-  <a href="#memo-lisans">Lisans</a> &#xa0; | &#xa0;
+  <a href="#factory-d12">D12</a> &#xa0; | &#xa0;
+  <a href="#sparkles-d34">D34</a> &#xa0; | &#xa0;
   <a href="https://github.com/otahsinb" target="_blank">Yazar</a>
 </p>
 
@@ -31,13 +30,13 @@
 
 ## :dart: Açıklama ##
 
- Bu alan opensource projeleri güncel işletim sistemlerinde derleyerek kullanmak için kendime aldığım notları içermektedir.
+ Bu alan opensource projeleri güncel işletim sistemlerinde derleyerek kullanma adımlarını içermektedir.
 
  
 :heavy_check_mark: Kaynak Kodlar \
 :heavy_check_mark: Derleme Adımları\
 :heavy_check_mark: Linker Ayarları \
-:heavy_check_mark: Best Prasctices
+:heavy_check_mark: Best Practices
 
 <a href="#top">Back to top</a>
 
@@ -219,7 +218,7 @@ Linkler:\
 
 <a href="#top">Back to top</a>
 
-## :factory: Bilgisayar Mimarisi ##
+## :factory: D12 ##
 
     .
     ├── 
@@ -247,7 +246,7 @@ Linkler:\
 
 <a href="#top">Back to top</a>
 
-## :sparkles: Yapay Zeka ##
+## :sparkles: D34 ##
 
     .
     ├── 
@@ -265,7 +264,6 @@ Linkler:\
     └── 
 
 <a href="#top">Back to top</a>
-
 
 Made with :clock12: :clock3:  :clock6:  :clock9: by otahsinb.\
 &#xa0;
