@@ -3,7 +3,7 @@
   <img src="./img_s.png" alt="cizgimmm">
   &#xa0;
 </div>
-<h1 align="center">Opensource projeler ve kullanımları hakkında</h1>
+<h1 align="center">Opensource Kaynak Kod Derleme</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/otahsinb/BUILDING-OPENSOURCECODE">
