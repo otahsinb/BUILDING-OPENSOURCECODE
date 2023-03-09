@@ -8,7 +8,6 @@
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/otahsinb/BUILDING-OPENSOURCECODE">
   <img alt="Github stars" src="https://img.shields.io/github/stars/otahsinb/BUILDING-OPENSOURCECODE" />
-  <img alt="License" src="https://img.shields.io/github/license/otahsinb/BUILDING-OPENSOURCECODE">
 </p>
 
 
@@ -266,11 +265,6 @@ Linkler:\
     └── 
 
 <a href="#top">Back to top</a>
-
-
-## :memo: Lisans ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
 
 Made with :clock12: :clock3:  :clock6:  :clock9: by otahsinb.\
