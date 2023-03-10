@@ -34,6 +34,7 @@
 
  
 :heavy_check_mark: Kaynak Kodlar \
+:heavy_check_mark: Araçlar \
 :heavy_check_mark: Derleme Adımları\
 :heavy_check_mark: Linker Ayarları \
 :heavy_check_mark: Best Practices
@@ -59,9 +60,9 @@
 
 <details>
   
-  <summary> Çıkmış Sorular </summary> <br />
+  <summary> Adım Adım Derleme </summary> <br />
   
-  :musical_score: C++20 Cheatsheet (Veri Yapıları ile İlgili Detaylı Bilgi Bulabilirsin...🡓🡓🡓)
+  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
   ```sh
   https://hackingcpp.com/cpp/cheat_sheets.html
   ```
@@ -87,6 +88,19 @@
     ├── 
     └── 
 
+
+<details>
+  
+  <summary> Adım Adım Derleme </summary> <br />
+  
+  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+  ```sh
+  https://hackingcpp.com/cpp/cheat_sheets.html
+  ```
+  
+</details>
+
+
 <a href="#top">Back to top</a>
 
 ## :surfer: Freetype ##
@@ -106,6 +120,19 @@
     ├── 
     └── 
 
+
+<details>
+  
+  <summary> Adım Adım Derleme </summary> <br />
+  
+  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+  ```sh
+  https://hackingcpp.com/cpp/cheat_sheets.html
+  ```
+  
+</details>
+
+
 <a href="#top">Back to top</a>
 
 ## :dizzy: Poco ##
@@ -116,14 +143,14 @@
     └── 
 
 
-Linkler:\
-  :dizzy: :dizzy: Ders Sunumları - M.A. Akçayol [Detaylı Bilgi Bulabilirsin...🡓🡓🡓](https://bigdata.gazi.edu.tr/akcayol/BM402.htm)
-
 <details>
-<summary> Açıklamalar </summary>
-
-
-  :dizzy: :dizzy:
+  
+  <summary> Adım Adım Derleme </summary> <br />
+  
+  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+  ```sh
+  https://hackingcpp.com/cpp/cheat_sheets.html
+  ```
   
 </details>
 
@@ -146,6 +173,19 @@ Linkler:\
     ├── 
     └── 
 
+
+<details>
+  
+  <summary> Adım Adım Derleme </summary> <br />
+  
+  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+  ```sh
+  https://hackingcpp.com/cpp/cheat_sheets.html
+  ```
+  
+</details>
+
+
 <a href="#top">Back to top</a>
 
 
@@ -167,6 +207,19 @@ Linkler:\
     └── 
 
 
+
+<details>
+  
+  <summary> Adım Adım Derleme </summary> <br />
+  
+  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+  ```sh
+  https://hackingcpp.com/cpp/cheat_sheets.html
+  ```
+  
+</details>
+
+
 <a href="#top">Back to top</a>
 
 
@@ -184,15 +237,15 @@ Linkler:\
     └── 
     
 
-  :fish_cake:  :fish_cake:  Youtube Ders - Ş. Evren. [Detaylı Bilgi Bulabilirsin...🡓🡓🡓](https://www.youtube.com/watch?v=pUGHbEGQj0g&list=PLh9ECzBB8tJOmOydGaV7xr9h13ooEjBkV&ab_channel=BilgisayarKavramlari)
-
 <details>
-<summary> Çıkmış Sorular </summary>
-
-
-**Q45**
-:maple_leaf:
-
+  
+  <summary> Adım Adım Derleme </summary> <br />
+  
+  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+  ```sh
+  https://hackingcpp.com/cpp/cheat_sheets.html
+  ```
+  
 </details>
   
 <a href="#top">Back to top</a>
@@ -214,6 +267,19 @@ Linkler:\
     ├── 
     └── 
 
+
+<details>
+  
+  <summary> Adım Adım Derleme </summary> <br />
+  
+  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+  ```sh
+  https://hackingcpp.com/cpp/cheat_sheets.html
+  ```
+  
+</details>
+
+
 <a href="#top">Back to top</a>
 
 ## :factory: D12 ##
@@ -232,13 +298,14 @@ Linkler:\
     └── 
 
 
-<details> 
-<summary> Çıkmış Sorular </summary>
+<details>
   
+  <summary> Adım Adım Derleme </summary> <br />
   
-  **Q61**
-  :ferris_wheel: 
-  
+  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+  ```sh
+  https://hackingcpp.com/cpp/cheat_sheets.html
+  ```
   
 </details>
 
@@ -260,6 +327,19 @@ Linkler:\
     ├── 
     ├── 
     └── 
+
+
+<details>
+  
+  <summary> Adım Adım Derleme </summary> <br />
+  
+  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+  ```sh
+  https://hackingcpp.com/cpp/cheat_sheets.html
+  ```
+  
+</details>
+
 
 <a href="#top">Back to top</a>
 
