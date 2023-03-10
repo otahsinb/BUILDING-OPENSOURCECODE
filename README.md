@@ -83,7 +83,7 @@
   ```
   
   ```sh
-  MSVC++ın PowerShell Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır.
+  MSVC++ın PowerShell Development Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır.
   ```
   
   ```sh
