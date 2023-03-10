@@ -40,66 +40,59 @@
 
 ## :sparkler: LibTiff ##
  
- Tag Image File Format (TIFF) bir görüntü format türüdür. Açıkkaynaklı olarak geliştirilen ve yaygınlaştırılan LibTiff yazılımı ile Tiff formatındaki görüntüler üzerinde data manupülasyonu yapılabilmektedir. Görüntü okuma, yazma, depolama ve çeşitli yetenekleri bulunmaktadır. Yazılım 32 ve 64 bitlik makinelerde çalışabilmektedir. 16 bitlik makinelerde de çalışabilir fakat sıkıştırma gibi çeşitli yetenekler kısıtlanmış olacaktır.
- 
- LibTiff ANCI C derleme ortamında build edilebilir. C dilinde yazılmış TIFF görüntü dosyalarında veri manüpülasyonu yapılmasını sağlayan yetenekleri vardır. 
  
   ```sh
     .
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    └── 
+    ├── Tag Image File Format (TIFF) bir görüntü format türüdür.
+    ├── Açıkkaynaklı olarak geliştirilen ve yaygınlaştırılan LibTiff yazılımı ile Tiff formatındaki görüntüler üzerinde data manupülasyonu yapılabilmektedir.
+    ├── Görüntü okuma, yazma, depolama ve çeşitli yetenekleri bulunmaktadır.
+    ├── Yazılım 32 ve 64 bitlik makinelerde çalışabilmektedir.
+    ├── 16 bitlik makinelerde de çalışabilir fakat sıkıştırma gibi çeşitli yetenekler kısıtlanmış olacaktır.
+    ├── LibTiff ANCI C derleme ortamında build edilebilir.
+    └── C dilinde yazılmış TIFF görüntü dosyalarında veri manüpülasyonu yapılmasını sağlayan yetenekleri vardır.
   ```
 
 <details>
+  <summary> :musical_score: Adım Adım Derleme :musical_score: </summary> <br />
+   
+  |:musical_score:|   Linkten (http://www.libtiff.org/) Kaynak Kodları İndiriniz...🡓🡓🡓    |
+  | ------- | --- |
   
-  <summary> Adım Adım Derleme </summary> <br />
+  |:musical_score:|   Microsoft Visual C++ 2022 kurulumu yapılır.    |
+  | ------- | --- |
   
-  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+  |:musical_score:|   LibTiff dosyası indirilir. |
+  | ------- | --- |
   
-  ```sh
-  Microsoft Visual C++ 2022 kurulumu yapılır.
-  ```
+  |:musical_score:|   Zip dosyası WinRar benzeri bir yardımcı program ile açılarak export yapılır. |
+  | ------- | --- |
   
-  ```sh
-  LibTiff dosyası indirilir.
-  ```
-  ```sh
-  Zip dosyası açılarak export yapılır.
-  ```
+  |:musical_score:|   LibTiffin olduğu dosya alanında gelinir ve MSVC++ dosya olarak açılır.  |
+  | ------- | --- |
   
-  ```sh
-  LibTiffin olduğu dosya alanında gelinir ve MSVC++ dosya olarak açılır.
-  ```
-  
-  ```sh
-  MSVC++ın PowerShell Development Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır.
-  ```
+  |:musical_score:|   MSVC++ın PowerShell Development Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır.  |
+  | ------- | --- |
   
   ```sh
   1. nmake /f makefile.vc
   2. cd ..\tools
   3. nmake /f makefile.vc
   ```
+    
+  |:musical_score:|  nmake yardımı ile build dosyası elde edilir. include ve lib dosyaları ayrılarak projenin external klasörü altına alınır.  |
+  | ------- | --- |
   
-  ```sh
-  nmake yardımı ile build dosyası elde edilir. include ve lib dosyaları ayrılarak projenin external klasörü altına alınır.  
-  ```
+  |:musical_score:|  ``` ```  |
+  | ------- | --- |
   
+  |:musical_score:|   ``` ```  |
+  | ------- | --- |
+   
+   
 </details>
 
-<a href="#top">Back to top</a>
 
+<a href="#top">Back to top</a>
 
 ## :octocat: Zlib ##
 
