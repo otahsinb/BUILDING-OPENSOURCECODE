@@ -31,11 +31,10 @@
 ## :dart: Açıklama ##
 
  Bu alan opensource projelerini güncel işletim sistemlerinde derleyerek kullanma adımlarını içermektedir.
-
  
 :heavy_check_mark: Kaynak Kodlar \
 :heavy_check_mark: Araçlar \
-:heavy_check_mark: Derleme Adımları\
+:heavy_check_mark: Derleme Adımları \
 :heavy_check_mark: Linker Ayarları \
 :heavy_check_mark: Best Practices
 
@@ -67,13 +66,40 @@
   <summary> Adım Adım Derleme </summary> <br />
   
   :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+  
   ```sh
-  https://hackingcpp.com/cpp/cheat_sheets.html
+  Microsoft Visual C++ 2022 kurulumu yapılır.
+  ```
+  
+  ```sh
+  LibTiff dosyası indirilir.
+  ```
+  ```sh
+  Zip dosyası açılarak export yapılır.
+  ```
+  
+  ```sh
+  LibTiffin olduğu dosya alanında gelinir ve MSVC++ dosya olarak açılır.
+  ```
+  
+  ```sh
+  MSVC++ın PowerShell Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır.
+  ```
+  
+  ```sh
+  1. nmake /f makefile.vc
+  2. cd ..\tools
+  3. nmake /f makefile.vc
+  ```
+  
+  ```sh
+  nmake yardımı ile build dosyası elde edilir. include ve lib dosyaları ayrılarak projenin external klasörü altına alınır.  
   ```
   
 </details>
 
 <a href="#top">Back to top</a>
+
 
 ## :octocat: Zlib ##
 
