@@ -41,6 +41,10 @@
 
 ## :sparkler: LibTiff ##
  
+ Tag Image File Format (TIFF) bir görüntü format türüdür. Açıkkaynaklı olarak geliştirilen ve yaygınlaştırılan LibTiff yazılımı ile Tiff formatındaki görüntüler üzerinde data manupülasyonu yapılabilmektedir. Görüntü okuma, yazma, depolama ve çeşitli yetenekleri bulunmaktadır. Yazılım 32 ve 64 bitlik makinelerde çalışabilmektedir. 16 bitlik makinelerde de çalışabilir fakat sıkıştırma gibi çeşitli yetenekler kısıtlanmış olacaktır.
+ 
+ LibTiff ANCI C derleme ortamında build edilebilir. C dilinde yazılmış TIFF görüntü dosyalarında veri manüpülasyonu yapılmasını sağlayan yetenekleri vardır. 
+ 
   ```sh
     .
     ├── 
