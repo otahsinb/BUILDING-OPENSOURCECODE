@@ -363,9 +363,6 @@
   
 </details>
 
-
-<a href="#top">Back to top</a>
-
 Made with :clock12: :clock3:  :clock6:  :clock9: by otahsinb.\
 &#xa0;
 
