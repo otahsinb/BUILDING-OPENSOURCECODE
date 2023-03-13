@@ -95,7 +95,7 @@
   cd buildx86\libtiff\Release
   ```
   
-  |:musical_score:|  Release klasörü altına üretilen dosyalar kopyalanarak \lib olarak adlandırılan yeni bir klasörün içine kopyalanır. Programın diğer .h dosyaları \include isimli bir klasörün altına kopyalanır. |
+  |:musical_score:|  Release klasörü altına üretilen dosyalar kopyalanarak \lib olarak adlandırılan yeni bir klasörün içine kopyalanır. Programın diğer dosyaları libtiff içindedir ve  \include isimli bir klasörün altına kopyalanır. |
   | ------- | --- |
   
   |:musical_score:|  ``` ```  |
