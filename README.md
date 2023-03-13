@@ -77,19 +77,25 @@
   |:musical_score:|   Zip dosyası WinRar benzeri bir yardımcı program ile açılarak export yapılır. |
   | ------- | --- |
   
-  |:musical_score:|   LibTiffin olduğu dosya alanında gelinir ve MSVC++ dosya olarak açılır.  |
+  |:musical_score:|   LibTiffin olduğu dosya alanında gelinir ve MSVC++ dosya olarak açılır. Bu işlem yapıldıktan sonra .vs isimli dosya root alanı olarak açılacaktır.  ${PROJECT_SOURCE_DIR}/tiff-4.5.0 |
   | ------- | --- |
   
-  |:musical_score:|   MSVC++ın PowerShell Development Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır.  |
+  |:musical_score:|   MSVC++ın Developer Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır. ${PROJECT_SOURCE_DIR}/tiff-4.5.0 |
   | ------- | --- |
   
   ```sh
-  1. nmake /f makefile.vc
-  2. cd ..\tools
-  3. nmake /f makefile.vc
+  mkdir buildx86
+  cd buildx86
+  cmake ..
   ```
-    
-  |:musical_score:|  nmake yardımı ile build dosyası elde edilir. include ve lib dosyaları ayrılarak projenin external klasörü altına alınır.  |
+  Yukarıdaki yapı ile build tree oluşturulacak ve sonradan üretilen dosyalar kaynak kod alanından uzak tutulacaktır.
+  
+  ```
+  cmake --build . --config Release
+  cd buildx86\libtiff\Release
+  ```
+  
+  |:musical_score:|  Release klasörü altına üretilen dosyalar kopyalanarak \lib olarak adlandırılan yeni bir klasörün içine kopyalanır. Programın diğer .h dosyaları \include isimli bir klasörün altına kopyalanır. |
   | ------- | --- |
   
   |:musical_score:|  ``` ```  |
