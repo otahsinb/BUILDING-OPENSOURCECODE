@@ -95,7 +95,7 @@
   |:musical_score:|  Release klasörü altına üretilen dosyalar kopyalanarak \lib olarak adlandırılan yeni bir klasörün içine kopyalanır. Programın diğer dosyaları libtiff içindedir ve  \include isimli bir klasörün altına kopyalanır. |
   | ------- | --- |
   
-  |:musical_score:|  ``` ```  |
+  |:musical_score:|  Projenin external klasörü altındaki lib ve include alanları uygun olarak ayarlandığında LibTiff programı kullanıma hazırdır.  |
   | ------- | --- |
   
   |:musical_score:|   ``` ```  |
