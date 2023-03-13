@@ -71,16 +71,13 @@
   |:musical_score:|   Microsoft Visual C++ 2022 kurulumu yapılır.    |
   | ------- | --- |
   
-  |:musical_score:|   LibTiff dosyası indirilir. |
+  |:musical_score:|   Zip veya Tar.gz olarak indirilen LibTiff dosyası WinRar benzeri bir yardımcı program ile açılarak extract edilir. |
   | ------- | --- |
   
-  |:musical_score:|   Zip dosyası WinRar benzeri bir yardımcı program ile açılarak export yapılır. |
+  |:musical_score:|   İndirilen dosyanın alanında gelinir ve MSVC++ aracı sağ tık menüsünden açılır. Bu işlem yapıldıktan sonra .vs isimli dosya bu alanda açılacaktır.  ${PROJECT_SOURCE_DIR}/tiff-4.5.0 |
   | ------- | --- |
   
-  |:musical_score:|   LibTiffin olduğu dosya alanında gelinir ve MSVC++ dosya olarak açılır. Bu işlem yapıldıktan sonra .vs isimli dosya root alanı olarak açılacaktır.  ${PROJECT_SOURCE_DIR}/tiff-4.5.0 |
-  | ------- | --- |
-  
-  |:musical_score:|   MSVC++ın Developer Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır. ${PROJECT_SOURCE_DIR}/tiff-4.5.0 |
+  |:musical_score:|   MSVC++ın Developer Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır. Olması gereken klasör alanı: ${PROJECT_SOURCE_DIR}/tiff-4.5.0 |
   | ------- | --- |
   
   ```sh
