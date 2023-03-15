@@ -132,6 +132,7 @@ int main(int argc, const char* argv[])
     return 0;
 }
   ```
+                 
   |:musical_score:|  Yukarıdaki kodu derlendiğini kontrol etmek için CMakeLists.txt isimli bir dosya açınız . |
   | ------- | --- |
   |:musical_score:|  Aşağıdaki kodu kopyalarak CMakeLists.txt dosyası içine koyunuz. |
