@@ -134,14 +134,17 @@ int main(int argc, const char* argv[])
   ```
   |:musical_score:|  Yukarıdaki kodu derlendiğini kontrol etmek için CMakeLists.txt isimli bir dosya açınız . |
   | ------- | --- |
-  |:musical_score:|  Aşağıdaki kodu kopyalarak demo.cxx dosyası içine koyunuz. |
-                 
+  |:musical_score:|  Aşağıdaki kodu kopyalarak CMakeLists.txt dosyası içine koyunuz. |
+
+
   ```c
   cmake_minimum_required (VERSION 2.6)
   project (demo)
   MESSAGE( STATUS "PROJECT_NAME: " ${PROJECT_NAME} )
+                 
   link_directories("${PROJECT_SOURCE_DIR}/lib") 
   include_directories("${PROJECT_SOURCE_DIR}/include/")
+                 
   # Add the executable
   add_executable(demo demo.cxx)
   target_link_libraries (demo "tiff")
@@ -150,10 +153,14 @@ int main(int argc, const char* argv[])
           "${PROJECT_SOURCE_DIR}/lib/tiff.dll"              
           $<TARGET_FILE_DIR:demo>)
   ```
-  |:musical_score:|   ki komutlar ile *.lib ve *.dll dosyaları elde edilir.🡓🡓🡓 |
+  
+  
+  |:musical_score:|   Aşağıdaki komutları sıra ile Command Promta giriniz. |
   | ------- | --- |
-  |:arrow_forward:|   ```  ``` |
-  |:arrow_forward:|   ```  ``` |
+  |:arrow_forward:|   ``` mkdir build ``` |
+  |:arrow_forward:|   ``` cd build ``` |
+  |:arrow_forward:|   ``` cmake .. ``` |
+  |:arrow_forward:|   ``` cmake --build . ``` |
                  
   |:musical_score:|  Projenin external klasörü altındaki lib ve include alanları uygun olarak ayarlandığında LibTiff programı kullanıma hazırdır.  |
   | ------- | --- |
