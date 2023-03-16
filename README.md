@@ -53,36 +53,32 @@
   |:musical_score:|   Linkten (http://www.libtiff.org/) Kaynak Kodları İndiriniz...🡓🡓🡓    |
   | ------- | --- |
   
-  |:musical_score:|   Microsoft Visual C++ 2022 kurulumu yapılır.    |
+  |:musical_score:|   Microsoft Visual C++ 2022 kurulumunu yapınız.    |
   | ------- | --- |
   
-  |:musical_score:|   Zip veya Tar.gz olarak indirilen LibTiff dosyası WinRar benzeri bir yardımcı program ile açılarak extract edilir. |
+  |:musical_score:|   Zip veya Tar.gz olarak indirilen LibTiff dosyası WinRar benzeri bir yardımcı program ile açılarak extract ediniz. |
   | ------- | --- |
   
   |:musical_score:|   İndirilen dosyanın alanında gelinir ve MSVC++ aracı sağ tık menüsünden açılır. |
   | ------- | --- |
-  | :musical_score: | Bu işlem yapıldıktan sonra .vs isimli dosya bu alanda açılacaktır. |
+  | :musical_score: | Bu işlem yapıldıktan sonra .vs isimli dosya bu alanda (..\tiff-4.5.0) açılacaktır. |
   
   |:musical_score:|   MSVC++ın Developer Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır.🡓🡓🡓 |
   | ------- | --- |
   |:arrow_forward:|   ``` mkdir buildx86 ``` |
   |:arrow_forward:|   ``` cd buildx86 ``` |
   |:arrow_forward:|   ``` cmake .. ``` |
-
-  
-  |:musical_score:|   Yukarıdaki yapı ile build tree oluşturulacaktır. Aşağıdaki komutlar ile *.lib ve *.dll dosyaları elde edilir.🡓🡓🡓 |
-  | ------- | --- |
   |:arrow_forward:|   ``` cmake --build . --config Release ``` |
-  |:arrow_forward:|   ``` cd buildx86\libtiff\Release ``` |
-
-  |:musical_score:|  Release klasörü altına üretilen dosyalar kopyalanarak \lib olarak adlandırılan yeni bir klasörün içine kopyalanır.|
-  | ------- | --- |
   
-  |:musical_score:|  Programın diğer dosyaları libtiff içindedir ve \include isimli bir klasörün altına kopyalanır. |
+  |:musical_score:|   Yukarıdaki yapı ile build tree oluşturulacaktır. buildx86\libtiff\Debug alanında *.lib ve *.dll dosyaları elde edilir. |
   | ------- | --- |
+  |:musical_score:|  ..\tiff-4.5.0\demo alanına lib ve include isimli klasör açınız. |
+  |:musical_score:|  buildx86\libtiff\Debug dosyalar kopyalanarak lib klasörünün içine kopyalayınız.|
+  |:musical_score:|  ..\tiff-4.5.0\libtiff içindeki dosyaları kopyalanarak include klasörünün içine kopyalayınız.|
+ |:musical_score:|  ..\tiff-4.5.0\out\build\x64-Debug\libtiff içindeki tif_config.h ve tiffconf.h isimli dosyaları include klasörünün içine kopyalayınız.|
   |:musical_score:|  Windows geliştirme ortamı için derleme işlemi tamamlanmıştır. |
   
-  |:musical_score:|  Programın çalışmasını kontrol etmek için demo.cxx isimli bir dosya açınız . |
+  |:musical_score:|  Programın çalışmasını kontrol etmek için ..\tiff-4.5.0\demo\demo.cxx isimli bir dosya açınız . |
   | ------- | --- |
   |:musical_score:|  Aşağıdaki kodu kopyalarak demo.cxx dosyası içine koyunuz. |
   
@@ -122,7 +118,7 @@ int main(int argc, const char* argv[])
 }
   ```
                  
-  |:musical_score:|  Yukarıdaki kodu derlendiğini kontrol etmek için CMakeLists.txt isimli bir dosya açınız . |
+  |:musical_score:|  Yukarıdaki kodun derlendiğini kontrol etmek için ..\tiff-4.5.0\demo\CMakeLists.txt isimli bir dosya açınız . |
   | ------- | --- |
   |:musical_score:|  Aşağıdaki kodu kopyalarak CMakeLists.txt dosyası içine koyunuz. |
 
@@ -145,20 +141,23 @@ int main(int argc, const char* argv[])
   ```
   
   
-  |:musical_score:|   Aşağıdaki komutları sıra ile Command Promta giriniz. |
+  |:musical_score:|   Aşağıdaki komutları sıra ile Developer Command Prompta giriniz. |
   | ------- | --- |
   |:arrow_forward:|   ``` mkdir build ``` |
   |:arrow_forward:|   ``` cd build ``` |
   |:arrow_forward:|   ``` cmake .. ``` |
   |:arrow_forward:|   ``` cmake --build . ``` |
-                 
-  |:musical_score:|  Projenin external klasörü altındaki lib ve include alanları uygun olarak ayarlandığında LibTiff programı kullanıma hazırdır.  |
-  | ------- | --- |
+
   
-  |:musical_score:|   ``` ```  |
+  |:musical_score:|   demo.exe dosyasının olduğu klasör yolu gösterilerek aşağıdaki komutu örnek tif görüntülerinde deneyiniz.  |
   | ------- | --- |
-   
-   
+  |:arrow_forward:|   ``` D:\tiff-4.5.0\demo\build\Debug\demo.exe D:\tiff-4.5.0\demo\with_color_table.tif ``` |
+  | :arrow_forward: | Çıktı: imageWidth 162, imageLength 150 |
+   |:arrow_forward:|   ``` D:\tiff-4.5.0\demo\build\Debug\demo.exe D:\tiff-4.5.0\demo\rgb_with_mask.tif ``` |
+   | :arrow_forward: | ![rgb_with_mask tif](https://user-images.githubusercontent.com/54834769/225626397-0e8c3e4f-1120-42af-a71e-7f258995543e.JPG) |
+   |:musical_score:|   Projenizin external alanına lib ve include klasörlerini eklediğinizde kullanıma hazırdır.  |
+  | ------- | --- |
+       
 </details>
 
 
