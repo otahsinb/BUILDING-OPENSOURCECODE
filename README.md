@@ -65,10 +65,10 @@
   
   |:musical_score:|   MSVC++ın Developer Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır.🡓🡓🡓 |
   | ------- | --- |
-  |:arrow_forward:|   ``` mkdir buildx86 ``` |
-  |:arrow_forward:|   ``` cd buildx86 ``` |
-  |:arrow_forward:|   ``` cmake .. ``` |
-  |:arrow_forward:|   ``` cmake --build . --config Release ``` |
+  |         |  :arrow_forward: ``` mkdir buildx86 ``` |
+  |         |  :arrow_forward:  ``` cd buildx86 ``` |
+  |         |  :arrow_forward:  ``` cmake .. ``` |
+  |         |  :arrow_forward:  ``` cmake --build . --config Release ``` |
   
   |:musical_score:|   Yukarıdaki yapı ile build tree oluşturulacaktır. buildx86\libtiff\Debug alanında *.lib ve *.dll dosyaları elde edilir. |
   | ------- | --- |
@@ -143,21 +143,20 @@ int main(int argc, const char* argv[])
   
   |:musical_score:|   Aşağıdaki komutları sıra ile Developer Command Prompta giriniz. |
   | ------- | --- |
-  |:arrow_forward:|   ``` mkdir build ``` |
-  |:arrow_forward:|   ``` cd build ``` |
-  |:arrow_forward:|   ``` cmake .. ``` |
-  |:arrow_forward:|   ``` cmake --build . ``` |
+  |         |  :arrow_forward: ``` mkdir build ``` |
+  |         |  :arrow_forward: ``` cd build ``` |
+  |         |  :arrow_forward:  ``` cmake .. ``` |
+  |         |  :arrow_forward:  ``` cmake --build . ``` |
 
   
   |:musical_score:|   demo.exe dosyasının olduğu klasör yolu gösterilerek aşağıdaki komutu örnek tif görüntülerinde deneyiniz.  |
   | ------- | --- |
-  |:arrow_forward:|   ``` D:\tiff-4.5.0\demo\build\Debug\demo.exe D:\tiff-4.5.0\demo\with_color_table.tif ``` |
-  | :arrow_forward: | Çıktı: imageWidth 162, imageLength 150 |
-   |:arrow_forward:|   ``` D:\tiff-4.5.0\demo\build\Debug\demo.exe D:\tiff-4.5.0\demo\rgb_with_mask.tif ``` |
-   | :arrow_forward: | ![rgb_with_mask tif](https://user-images.githubusercontent.com/54834769/225626397-0e8c3e4f-1120-42af-a71e-7f258995543e.JPG) |
+  |        |  :arrow_forward:   ``` D:\tiff-4.5.0\demo\build\Debug\demo.exe D:\tiff-4.5.0\demo\with_color_table.tif ``` |
+  | Çıktı: |  imageWidth 162, imageLength 150 |
+  |        |  :arrow_forward:  ``` D:\tiff-4.5.0\demo\build\Debug\demo.exe D:\tiff-4.5.0\demo\rgb_with_mask.tif ``` |
+   | Çıktı: | ![rgb_with_mask tif](https://user-images.githubusercontent.com/54834769/225626397-0e8c3e4f-1120-42af-a71e-7f258995543e.JPG) |
    |:musical_score:|   Projenizin external alanına lib ve include klasörlerini eklediğinizde kullanıma hazırdır.  |
-  | ------- | --- |
-       
+         
 </details>
 
 
