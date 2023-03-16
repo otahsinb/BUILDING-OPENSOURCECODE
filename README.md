@@ -36,26 +36,15 @@
 
 ## :sparkler: LibTiff ##
  
- libtiff is a set of C functions (a library) that support the manipulation of TIFF image files. The library requires an ANSI C compilation environment for building and presumes an ANSI C environment for use.
- 
- libtiff provides interfaces to image data at several layers of abstraction (and cost).
- 
- At the highest level image data can be read into an 8-bit/sample, ABGR pixel raster format without regard for the underlying data organization, colorspace, or compression scheme.
- 
- high-level interface the library provides scanline-, strip-, and tile-oriented interfaces that return data decompressed but otherwise untransformed. These interfaces require that the application first identify the organization of stored data and select either a strip-based or tile-based API for manipulating data. At the lowest level the library provides access to the raw uncompressed strips or tiles, returning the data exactly as it appears in the file.
- 
- build tree configuration is useful for building multiple targets from a single source tree and building from a read-only source tree (e.g. CD-ROM)
- 
- 
   ```sh
     .
     ├── Tag Image File Format (TIFF) bir görüntü format türüdür.
-    ├── Açıkkaynaklı olarak geliştirilen ve yaygınlaştırılan LibTiff yazılımı ile Tiff formatındaki görüntüler üzerinde data manupülasyonu yapılabilmektedir.
-    ├── Görüntü okuma, yazma, depolama ve çeşitli yetenekleri bulunmaktadır.
+    ├── Libtiff, TIFF görüntü dosyalarının manipülasyonunu destekleyen bir C fonksiyonları kümesidir (bir kütüphanedir).
+    ├── Libtiff, görüntü verilerine farklı soyutlama katmanlarında arayüzler sağlar. 
+    ├── Bu kütüphane, derleme yapmak için ANSI C derleme ortamını gerektirir ve kullanım için de bir ANSI C ortamını varsayar.
     ├── Yazılım 32 ve 64 bitlik makinelerde çalışabilmektedir.
-    ├── 16 bitlik makinelerde de çalışabilir fakat sıkıştırma gibi çeşitli yetenekler kısıtlanmış olacaktır.
-    ├── LibTiff ANCI C derleme ortamında build edilebilir.
-    └── C dilinde yazılmış TIFF görüntü dosyalarında veri manüpülasyonu yapılmasını sağlayan yetenekleri vardır.
+    └── 16 bitlik makinelerde de çalışabilir fakat sıkıştırma gibi çeşitli yetenekler kısıtlanmış olacaktır.
+  
   ```
 
 <details>
