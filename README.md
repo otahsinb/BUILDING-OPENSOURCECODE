@@ -61,7 +61,7 @@
   
   |:musical_score:|   İndirilen dosyanın alanında gelinir ve MSVC++ aracı sağ tık menüsünden açılır. |
   | ------- | --- |
-  | :musical_score: | Bu işlem yapıldıktan sonra .vs isimli dosya bu alanda {\color{red} D:\tiff-4.5.0} açılacaktır. |
+  | :musical_score: | Bu işlem yapıldıktan sonra .vs isimli dosya bu alanda <code style="color : fuchsia">D:\tiff-4.5.0</code> açılacaktır. |
 
   |:musical_score:|   MSVC++ın Developer Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır.🡓🡓🡓 |
   | ------- | --- |
