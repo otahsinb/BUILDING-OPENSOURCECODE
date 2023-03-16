@@ -154,7 +154,7 @@ int main(int argc, const char* argv[])
   |        |  :arrow_forward:   ``` D:\tiff-4.5.0\demo\build\Debug\demo.exe D:\tiff-4.5.0\demo\with_color_table.tif ``` |
   | Çıktı: |  imageWidth 162, imageLength 150 |
   |        |  :arrow_forward:  ``` D:\tiff-4.5.0\demo\build\Debug\demo.exe D:\tiff-4.5.0\demo\rgb_with_mask.tif ``` |
-   | Çıktı: | ![rgb_with_mask tif](https://user-images.githubusercontent.com/54834769/225626397-0e8c3e4f-1120-42af-a71e-7f258995543e.JPG) |
+   | Çıktı: | ![rgb_with_mask tif](./img/result_rgb_with_mask.tif.JPG)   |
    |:musical_score:|   Projenizin external alanına lib ve include klasörlerini eklediğinizde kullanıma hazırdır.  |
          
 </details>
