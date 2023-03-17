@@ -53,10 +53,10 @@
   |:musical_score:|   Linkten (http://www.libtiff.org/) Kaynak Kodları İndiriniz...🡓🡓🡓    |
   | ------- | --- |
   
-  |:musical_score:|   Microsoft Visual C++ 2022 kurulumunu yapınız.    |
+  |:musical_score:|   Microsoft Visual Studio C++ 2022 kurulumunu yapınız.    |
   | ------- | --- |
   
-  |:musical_score:|   Zip veya Tar.gz olarak indirilen LibTiff dosyası WinRar benzeri bir yardımcı program ile açılarak extract ediniz. |
+  |:musical_score:|   Zip veya Tar.gz olarak indirilen LibTiff dosyasını WinRar benzeri bir yardımcı program ile açılarak extract ediniz. |
   | ------- | --- |
   
   |:musical_score:|   İndirilen dosyanın alanında gelinir ve MSVC++ aracı sağ tık menüsünden açılır. |
@@ -184,10 +184,7 @@ int main(int argc, const char* argv[])
   <summary> Adım Adım Derleme </summary> <br />
   
   :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
-  ```sh
-  https://hackingcpp.com/cpp/cheat_sheets.html
-  ```
-  
+ 
 </details>
 
 
@@ -216,10 +213,7 @@ int main(int argc, const char* argv[])
   <summary> Adım Adım Derleme </summary> <br />
   
   :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
-  ```sh
-  https://hackingcpp.com/cpp/cheat_sheets.html
-  ```
-  
+   
 </details>
 
 
@@ -238,10 +232,7 @@ int main(int argc, const char* argv[])
   <summary> Adım Adım Derleme </summary> <br />
   
   :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
-  ```sh
-  https://hackingcpp.com/cpp/cheat_sheets.html
-  ```
-  
+   
 </details>
 
 <a href="#top">Back to top</a>
@@ -269,10 +260,7 @@ int main(int argc, const char* argv[])
   <summary> Adım Adım Derleme </summary> <br />
   
   :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
-  ```sh
-  https://hackingcpp.com/cpp/cheat_sheets.html
-  ```
-  
+   
 </details>
 
 
@@ -303,9 +291,7 @@ int main(int argc, const char* argv[])
   <summary> Adım Adım Derleme </summary> <br />
   
   :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
-  ```sh
-  https://hackingcpp.com/cpp/cheat_sheets.html
-  ```
+
   
 </details>
 
