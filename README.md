@@ -39,7 +39,7 @@
   ```sh
     .
     ├── Tag Image File Format (TIFF) bir görüntü format türüdür.
-    ├── Libtiff, TIFF görüntü dosyalarının manipülasyonunu destekleyen bir C fonksiyonları kümesidir (bir kütüphanedir).
+    ├── Libtiff, TIFF dosyalarının manipülasyonunu destekleyen bir C fonksiyonları kümesidir (bir kütüphanedir).
     ├── Libtiff, görüntü verilerine farklı soyutlama katmanlarında arayüzler sağlar. 
     ├── Bu kütüphane, derleme yapmak için ANSI C derleme ortamını gerektirir ve kullanım için de bir ANSI C ortamını varsayar.
     ├── Yazılım 32 ve 64 bitlik makinelerde çalışabilmektedir.
