@@ -73,8 +73,8 @@
   |:musical_score:| Yukarıdaki komutlar ile build tree oluşturuldu ve ```buildx86\libtiff\Debug``` alanında lib ve dll uzantılı dosyalar üretildi. |
   | ------- | --- |
   |:musical_score:| ```D:\tiff-4.5.0\demo``` alanına *lib* ve *include* isimli klasörler açınız. |
-  |:musical_score:| ```buildx86\libtiff\Debug``` alanındaki dosyaları kopyalanarak *lib* klasörünün içine kopyalayınız.|
-  |:musical_score:| ```D:\tiff-4.5.0\libtiff``` içindeki dosyaları kopyalanarak *include* klasörünün içine kopyalayınız.|
+  |:musical_score:| ```buildx86\libtiff\Debug``` alanındaki dosyalarını *lib* klasörünün içine kopyalayınız.|
+  |:musical_score:| ```D:\tiff-4.5.0\libtiff``` içindeki dosyalarını *include* klasörünün içine kopyalayınız.|
   |:musical_score:| ```D:\tiff-4.5.0\out\build\x64-Debug\libtiff``` içindeki *tif_config.h* ve *tiffconf.h* isimli dosyaları *include* klasörünün içine kopyalayınız.|
   |:musical_score:|  Windows geliştirme ortamı için derleme işlemi tamamlanmıştır. |
   
@@ -120,7 +120,7 @@ int main(int argc, const char* argv[])
                  
   |:musical_score:|  Yukarıdaki kodun derlendiğini görmek için ```D:\tiff-4.5.0\demo\CMakeLists.txt``` isimli bir dosya açınız . |
   | ------- | --- |
-  |:musical_score:|  Aşağıdaki kodu kopyalarak *CMakeLists.txt* dosyası içine koyunuz. |
+  |:musical_score:|  Aşağıdaki kodu kopyalayarak *CMakeLists.txt* dosyası içine koyunuz. |
 
   ```c
   cmake_minimum_required (VERSION 2.6)
