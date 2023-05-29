@@ -59,11 +59,11 @@
   |:musical_score:|   Zip veya Tar.gz olarak indirilen LibTiff dosyasını WinRar benzeri bir yardımcı program ile açılarak extract ediniz. |
   | ------- | --- |
   
-  |:musical_score:|   İndirilen dosyanın alanında gelinir ve MSVC++ aracı sağ tık menüsünden açılır. |
+  |:musical_score:|   ' x64 Native Tools Command Prompt for VS 2022 ' programı açılarak  LibTiff'in açıldığı klasöre komut satırından gidilir. |
   | ------- | --- |
-  | :musical_score: | Bu işlem yapıldıktan sonra .vs isimli dosya bu alanda <code style="color : fuchsia">BuildFolder\tiff-4.5.0</code> açılacaktır. |
+  | :musical_score: | Bu alanda <code style="color : fuchsia">BuildFolder\tiff-4.5.0</code> açılacaktır. |
 
-  |:musical_score:|   MSVC++ın Developer Command Prompt alanı açılır ve aşağıdaki komutlar sırası ile çağrılır.🡓🡓🡓 |
+  |:musical_score:|   ' x64 Native Tools Command Prompt for VS 2022 ' içinden aşağıdaki komutlar sırası ile çağrılır.🡓🡓🡓 |
   | ------- | --- |
   |         |  :arrow_forward:  ``` mkdir buildx86 ``` |
   |         |  :arrow_forward:  ``` cd buildx86 ``` |
