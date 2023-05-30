@@ -164,8 +164,8 @@ int main(int argc, const char* argv[])
 ## :octocat: Zlib ##
 
     .
-    ├── 
-    ├── 
+    ├── Zlib, Linux, macOS ve Windows dahil olmak üzere herhangi bir bilgisayar donanımı ve yazılım platformunda kullanım için ücretsiz ve genel amaçlı, kayıpsız bir veri sıkıştırma yazılımı kitaplığıdır.
+    ├── Zlib açık kaynaklıdır ve kaynak kodu zlib resmi web sitesinde mevcuttur ( https://zlib.net/ )
     ├── 
     ├── 
     ├── 
@@ -183,7 +183,50 @@ int main(int argc, const char* argv[])
   
   <summary> Adım Adım Derleme </summary> <br />
   
-  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+  |:musical_score:|   zlib kaynak paketini (zlib-1.2.12.tar.gz) indirin ve C:\local\src gibi yerel dizine açın.   |
+  | ------- | --- |
+  
+  
+  |:musical_score:|   ' x64 Native Tools Command Prompt for VS 2022 ' programı açın ve  dizini C:\local\src\zlib-1.2.12 olarak değiştirin.  |
+  | ------- | --- |
+  |:musical_score:| ![zlib-chng-pth JPG](./img/zlib-chng-pth.JPG)    |
+  
+  |:musical_score:|   Ardından, zlib kitaplıklarını oluşturmak için  nmake komutunu çalıştırın.   |
+  | ------- | --- |
+  |         |  :arrow_forward: ``` nmake /f win32/Makefile.msc ``` |
+  |:musical_score:| ![zlib-make-rslts JPG](./img/zlib-make-rslts.JPG)    |
+  
+  |:musical_score:|   Aşağıdaki dosyalar C:\local\src\zlib-1.2.12 dizininde oluşturulacaktır .   |
+  | ------- | --- |
+  |:musical_score:|   zlib.lib: Bir zlib statik kitaplığı  |
+  |:musical_score:|   zlib.pdb: zlib.lib'in bir program veritabanı dosyası  |
+  |:musical_score:|   zdll.lib:  zlib1.dll dosyasını içe aktarma kitaplığı  |
+  |:musical_score:|   zlib1.dll: Paylaşılan bir zlib kitaplığı  |
+  |:musical_score:|   zlib1.pdb: zlib1.dll'nin bir program veritabanı   |
+  |:musical_score:| ![zlib-outs JPG](./img/zlib-outs.JPG)    |
+  
+  
+  |:musical_score:|    zlib başlık dosyaları ve kitaplık dosyaları yeni zlib klasörüne kopyalanacaktır. Öncelikle, zlib dosyaları için C:\local\zlib gibi yeni bir klasör oluşturun .   |
+  | ------- | --- |
+  |:musical_score:| ![zlib-fldrs JPG](./img/zlib-fldrs.JPG)    |
+  
+  
+  
+  |:musical_score:|   Ardından, zlib.h ve zconf.h dosyalarını C:\local\src\zlib-1.2.12 konumundan C:\local\zlib\include konumuna kopyalayın    |
+  | ------- | --- |
+  |:musical_score:| ![zlib-zconf-h JPG](./img/zlib-zconf-h.JPG)    |
+  
+  
+  |:musical_score:|   Son olarak, zlib kitaplık dosyalarını C:\local\src\zlib-1.2.12 konumundan C:\local\zlib\lib dizinine kopyalayın.   |
+  | ------- | --- |
+  |:musical_score:| ![zlib-libs JPG](./img/zlib-libs.JPG)    |
+  
+  
+  |:musical_score:|   Bu noktada, zlib kütüphane dosyaları düzgün bir şekilde oluşturulmuştur.    |
+  | ------- | --- |
+  
+  
+  
  
 </details>
 
@@ -277,7 +320,7 @@ int main(int argc, const char* argv[])
   
   |:musical_score:|   ' x64 Native Tools Command Prompt for VS 2022 ' programı açılır ve aşağıdaki komutlar sırası ile çağrılır.  |
   | ------- | --- |
-   |         |  :arrow_forward: ``` perl -v ``` |
+  |         |  :arrow_forward: ``` perl -v ``` |
   |         |  :arrow_forward: ``` ... ``` |
   |         |  :arrow_forward:  ``` nasm -v ``` |
   |:musical_score:| ![perl-setts JPG](./img/perl-setts.JPG)    |
