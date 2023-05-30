@@ -271,10 +271,9 @@ int main(int argc, const char* argv[])
   |:musical_score:|    Netwide Assembler (NASM) kurulur (https://www.nasm.us/) : x86 CPU mimarisi için bir derleyici (OpenSSL oluşturmak için gereklidir)   |
   | ------- | --- |
   
-  |:musical_score:|    Perl ve NASM dizini Path ortam değişkenine eklenmelidir. 
-  
-  |
+  |:musical_score:|    Perl ve NASM dizini Path ortam değişkenine eklenmelidir. |
   | ------- | --- |
+  |:musical_score:| --- |
   
   |:musical_score:|       |
   | ------- | --- |
