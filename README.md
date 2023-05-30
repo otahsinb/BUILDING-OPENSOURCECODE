@@ -297,12 +297,17 @@ int main(int argc, const char* argv[])
   |:musical_score:| ![open-ssl-nmake JPG](./img/open-ssl-nmake.JPG)    |
   
   
-  |:musical_score:|       |
+  |:musical_score:|    lib, dll, exe uzantılı çıktılar aşağıdaki gibi olacaktır.   |
   | ------- | --- |
+  |:musical_score:| ![open-ssl-outs JPG](./img/open-ssl-outs.JPG)    |
   
-  |:musical_score:|       |
+  |:musical_score:|   Son olarak makineye OpenSSL kurmak için  “ nmake install ” komutunu çalıştırın.    |
   | ------- | --- |
+  |         |  :arrow_forward: ``` nmake install ``` |
   
+  |:musical_score:|   Kitaplıklar C:\local\openssl1.1.1\lib ve C:\local\openssl1.1.1\bin dizinindedir ve OpenSSL ikili dosyası C:\local\openssl1.1.1\bin dizinindedir.     |
+  | ------- | --- |
+  |:musical_score:| ![open-ssl-folders JPG](./img/open-ssl-folders.JPG)    |
   
    
 </details>
