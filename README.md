@@ -240,9 +240,9 @@ int main(int argc, const char* argv[])
 ## :art: OpenSSL ##
 
     .
-    ├── 
-    ├── 
-    ├── 
+    ├── OpenSSL, bilgisayar ağları üzerinden güvenli iletişim sağlayan uygulamalar için SSL ve TLS protokollerini uygulayan bir yazılım kitaplığıdır.
+    ├── libssl ve libcrypto olmak üzere iki kitaplık içerir.
+    ├── libcrypto kitaplığı, libssl tarafından kullanılan temel kriptografik rutinleri sağlar.
     ├── 
     ├── 
     ├── 
@@ -259,7 +259,39 @@ int main(int argc, const char* argv[])
   
   <summary> Adım Adım Derleme </summary> <br />
   
-  :musical_score: Kaynak Kodları (Aşağıdaki Linkten Kaynak Kodları İndiriniz...🡓🡓🡓)
+   |:musical_score:|   OpenSSL açık kaynaktır ve kaynak kodu OpenSSL resmi web sitesinde mevcuttur ( https://www.openssl.org )   |
+  | ------- | --- |
+  
+  |:musical_score:|   OpenSSL kaynak paketini ( openssl-1.1.1o.tar.gz ) indirin ve C:\local\src gibi yerel dizine açın.    |
+  | ------- | --- |
+  
+  |:musical_score:|    Strawberry Perl kurulur (https://strawberryperl.com/) : Microsoft Windows için bir perl ortamı (OpenSSL oluşturmak için gereklidir)   |
+  | ------- | --- |
+  
+  |:musical_score:|    Netwide Assembler (NASM) kurulur (https://www.nasm.us/) : x86 CPU mimarisi için bir derleyici (OpenSSL oluşturmak için gereklidir)   |
+  | ------- | --- |
+  
+  |:musical_score:|    Perl ve NASM dizini Path ortam değişkenine eklenmelidir. 
+  
+  |
+  | ------- | --- |
+  
+  |:musical_score:|       |
+  | ------- | --- |
+  
+  |:musical_score:|       |
+  | ------- | --- |
+  
+  |:musical_score:|       |
+  | ------- | --- |
+  
+  |:musical_score:|       |
+  | ------- | --- |
+  
+  |:musical_score:|       |
+  | ------- | --- |
+  
+  
    
 </details>
 
