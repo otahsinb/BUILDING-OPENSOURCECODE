@@ -273,16 +273,29 @@ int main(int argc, const char* argv[])
   
   |:musical_score:|    Perl ve NASM dizini Path ortam değişkenine eklenmelidir. |
   | ------- | --- |
-  |:musical_score:| --- |
+  |:musical_score:| ![openssl-env-vars JPG](./img/openssl-env-vars.JPG)    |
   
-  |:musical_score:|       |
+  |:musical_score:|   ' x64 Native Tools Command Prompt for VS 2022 ' programı açılır ve aşağıdaki komutlar sırası ile çağrılır.  |
   | ------- | --- |
+   |         |  :arrow_forward: ``` perl -v ``` |
+  |         |  :arrow_forward: ``` ... ``` |
+  |         |  :arrow_forward:  ``` nasm -v ``` |
+  |:musical_score:| ![perl-setts JPG](./img/perl-setts.JPG)    |
   
-  |:musical_score:|       |
+  |:musical_score:|    Önceki adımlarda, tüm dosyalar openssl-1.1.1.o dizinine çıkarılmıştı. Dizininizi C:\local\src\ openssl-1.1.1.o olarak değiştirin    |
   | ------- | --- |
+  |:musical_score:| ![perl-setts-chng-pths JPG](./img/perl-setts-chng-pths.JPG)    |
   
-  |:musical_score:|       |
+  |:musical_score:|   Ardından, OpenSSL kaynak paketini yapılandırmak için  config komutunu çalıştırın.    |
   | ------- | --- |
+  |         |  :arrow_forward: ``` perl Configure VC-WIN64A --prefix=c:\local\openssl1.1.1 ``` |
+  |:musical_score:| ![perl-setts-success JPG](./img/perl-setts-success.JPG)    |
+  
+  |:musical_score:|   OpenSSL kitaplıklarını (libcrypto ve libssl) ve OpenSSL ikilisini (openssl) oluşturmak için  nmake komutunu çalıştırın .    |
+  | ------- | --- |
+  |         |  :arrow_forward: ``` nmake ``` |
+  |:musical_score:| ![open-ssl-nmake JPG](./img/open-ssl-nmake.JPG)    |
+  
   
   |:musical_score:|       |
   | ------- | --- |
